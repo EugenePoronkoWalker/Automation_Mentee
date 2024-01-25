@@ -17,5 +17,9 @@ age1850_button = driver.find_element(By.XPATH, age1850_xpath)
 age1850_button.click()
 time.sleep(3)
 
+start_id = 'startTest'
+start_button = driver.find_element(By.ID, start_id)
+start_button.click()
+time.sleep(3)
 
 time.sleep(3000)
